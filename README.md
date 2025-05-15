@@ -4,6 +4,17 @@
 
 ---
 
+## ✅ Features
+
+- 🔐 **User Authentication** (JWT-based login/register)
+- 🛏️ **Room Management** (add, update, delete, search, list, availability check)
+- 📆 **Booking System** (check-in/check-out, status tracking)
+- 💳 **Stripe Payment Integration** (real-time payment intent, confirmation)
+- 📧 **Email Notifications** (booking confirmation, payment status)
+- 🧾 **Admin** and **Customer** roles with different privileges
+
+---
+
 ## 📦 Project Structure
 
 ```
@@ -20,17 +31,6 @@ com.nikhil.suitesphere
 ├── services        # Business logic layer
 └── SuiteSphereApplication.java
 ```
-
----
-
-## ✅ Features
-
-- 🔐 **User Authentication** (JWT-based login/register)
-- 🛏️ **Room Management** (add, update, delete, search, list, availability check)
-- 📆 **Booking System** (check-in/check-out, status tracking)
-- 💳 **Stripe Payment Integration** (real-time payment intent, confirmation)
-- 📧 **Email Notifications** (booking confirmation, payment status)
-- 🧾 **Admin** and **Customer** roles with different privileges
 
 ---
 
