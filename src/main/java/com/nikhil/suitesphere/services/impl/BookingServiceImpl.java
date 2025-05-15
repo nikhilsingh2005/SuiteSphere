@@ -76,12 +76,12 @@ public class BookingServiceImpl implements BookingService {
             throw new InvalidBookingStateAndDateException("check in date cannot be before today ");
         }
 
-        //validation: Ensure the check-out date is not before check in date
+        //validation: Ensure the check-out date is not before the check-in date
         if (bookingDTO.getCheckInDate().isBefore(bookingDTO.getCheckInDate())) {
             throw new InvalidBookingStateAndDateException("check out date cannot be before check in date ");
         }
 
-        //validation: Ensure the check-in date is not same as check out date
+        //validation: Ensure the check-in date is different from the check-out date
         if (bookingDTO.getCheckInDate().isEqual(bookingDTO.getCheckOutDate())) {
             throw new InvalidBookingStateAndDateException("check in date cannot be equal to check out date ");
         }
